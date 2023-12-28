@@ -1,5 +1,4 @@
 resource "aws_ec2_host" "test" {
-  instance_type     = "t2.micro"
-  availability_zone = "us-east-1b"
-  auto_placement    = "on"
+  instance_type     = "t3.large"
+  availability_zone = "us-east-1a"
 }
