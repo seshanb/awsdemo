@@ -1,11 +1,4 @@
-variable "instance_type" {
-  description = "The type of the instance"
+variable "bucket_name" {
+  description = "The name of the S3 bucket (must be globally unique)"
   type        = string
-  default     = "t3.micro"
-}
-
-variable "instance_name" {
-  description = "The name of the instance"
-  type        = string
-  default     = "stackopsdemo"
 }
